@@ -16,7 +16,7 @@ def this_year(number):
 
 
 def base_conversion():
-    base = int(input("Enter a base you want to convert to: "))
+    base = int(input("Enter a base you want to convert to (2-9): "))
     max_base_10 = (base ** 4) - 1
     print("The maximum base 10 number for your chosen base is " + str(max_base_10))
     num_base_10 = int(input("Enter a number that is less than or equal to " + str(max_base_10) + ": "))
@@ -47,9 +47,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
