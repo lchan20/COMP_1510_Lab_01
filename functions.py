@@ -1,5 +1,5 @@
 def format_name(first, last):
-    my_name = (str(first) + " " + str(last))
+    my_name = (str(first.strip()) + " " + str(last.strip()))
     full_name = my_name.strip()
     return full_name.title()
 
