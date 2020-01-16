@@ -3,9 +3,9 @@ radius = 0
 radius = float(input("enter a radius value for a circle: "))
 double_radius = 2*radius
 circumference = 2*PI*radius
-print(circumference)
+print("circumference is " + str(circumference))
 area = PI*radius*radius
-print(area)
+print("area is " + str(area))
 double_radius_area = PI*double_radius*double_radius
 double_radius_circumference = 2*PI*double_radius
 circumference_ratio = double_radius_circumference/circumference
